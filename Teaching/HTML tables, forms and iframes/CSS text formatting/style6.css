@@ -1,0 +1,21 @@
+h1 {
+    text-transform: capitalize;
+}
+.p1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.p2 {
+    text-decoration: underline;
+    line-height: 48px;
+}
+
+.p3 {
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.p4 {
+    text-shadow: 3px 3px 3px green;
+}
