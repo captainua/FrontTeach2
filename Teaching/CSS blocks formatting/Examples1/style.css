@@ -1,0 +1,53 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: darksalmon;
+    margin: 20px 20px 0px 20px;
+    padding: 10px;
+}
+
+.header h1 {
+    font-size: 48px;
+    padding-left: 50px;
+}
+
+.header h2 {
+    text-align: right;
+    padding-right: 100px;
+}
+
+.nav {
+    background-color: dodgerblue;
+    padding: 5px;
+    margin: 10px 20px 0px 20px;
+}
+
+.nav ul li {
+    display: inline-block;
+    text-indent: 100px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.nav a:hover {
+    color: black;
+    font-size: 20px;
+}
+
+.content h3 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.content img {
+    float: left;
+    padding: 15px;
+}
