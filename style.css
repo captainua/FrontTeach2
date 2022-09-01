@@ -1,0 +1,156 @@
+
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+/*header style start*/
+.header {
+    height: 150px;
+    background-color: #4682b4;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header_block {
+    margin: 20px 0px 0px 0px;
+    color: #fff;
+}
+
+.logo {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.logo_item {
+    font-size: 20px;
+    margin: 10px 0 0 0;
+}
+/*header style end*/
+/*navigation style*/
+.nav {
+    margin: 60px 0px 0px 20px;
+}
+
+.nav a {
+    font-size: 20px;
+    padding-left: 10px;
+    color: #fff;
+}
+
+.nav a:hover {
+    color: #000;
+}
+/*navigation end*/
+/*section sidebar*/
+.sidebar {
+    float: right;
+}
+
+.social {
+    margin-top: 30px;
+}
+
+.social img {
+    width: 40px;
+    height: 40px;
+    padding: 0px 0px 0px 5px;
+}
+/*end social style*/
+.search input {
+    border-radius: 2 px solid black;
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+}
+/*end input style*/
+
+.header_block h3 {
+    color: #000;
+    font-size: 20px;
+}
+
+.block img {
+    float: left;
+    padding-bottom: 20px;
+    margin-right: 10px;
+}
+
+.block {
+    margin-top: 30px;
+}
+
+.block p {
+    padding-left: 30px;
+    text-align: left;
+}
+/*section block end style*/
+.main {
+    margin: 0 0 0 20px;
+}
+
+.main a {
+    color: #000;
+}
+
+.main a:hover {
+    color: #ccc;
+}
+
+.main_header {
+    font-size: 28px;
+    margin: 50px 0px 0px 20px;
+}
+
+.block_main img {
+    float: left;
+    margin: 40px 10px 0px 10px;
+}
+
+.block_main {
+    max-width: 870px;
+    height: 350px;
+    font-size: 18px;
+}
+
+.block_main p {
+    margin: 40px 0 0 20px;
+}
+
+.main_header img a {
+    padding-left: 200px;
+}
